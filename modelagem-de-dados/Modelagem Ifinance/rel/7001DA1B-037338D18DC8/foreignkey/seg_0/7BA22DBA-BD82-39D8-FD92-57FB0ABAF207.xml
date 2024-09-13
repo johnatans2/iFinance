@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7BA22DBA-BD82-39D8-FD92-57FB0ABAF207" containerWithKeyObject="40F37FF0-39FD-3562-A145-F0A9144E0849" localFKIndex="12B0F8D4-9396-8B9C-CD67-3C023FBA087D" name="ENTRADA_TRANSACAO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>CFE853DB-D0FE-D43C-10B0-8DD7C492CFF5</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<referredTableLongName>TRANSACAO</referredTableLongName>
+<arc>396F8101-2CC0-3255-B836-BF3CF87DC530</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29A08CB9-5419-5ECC-E005-DA8FFC6C88C2</referredTableID>
+<keyObject>716CB1B3-133D-EDB9-4176-541A1FA4D857</keyObject>
+<referredKeyID>716CB1B3-133D-EDB9-4176-541A1FA4D857</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_transacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

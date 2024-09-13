@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6D702D6-A0C8-05A7-A375-DD47CE59E265" name="T_TELEFONE">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>B95C7442-E0B2-09CB-0D46-7CB211D527B8</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>telefone</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefone" id="EE53C562-9B51-007B-A78E-DFCEAE763C23">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>4B3272EB-393F-A0BD-1E17-33A78E34CC7A</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estabelecimento" id="06F95970-A429-9F6E-E3AF-B822E3BFE0F5">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>08F448C9-6B47-F285-C9A4-75F5CE271C20</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CC2E04D-A0CF-3D6E-CF35-83E78C4BC083" referredColumn="83E807B3-40C4-7C00-6496-965F20A33A9F"/>
+</associations>
+</Column>
+<Column name="ddd" id="750513E9-55BA-ED89-E1E2-6CF776933283">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>45960EA1-068D-3128-F18A-35A877334D91</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="7DA657CF-9AFC-4628-B072-2AC7688DB0BA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>49DD253A-C9B7-BF0F-93DB-DAC47CB1A104</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABD03B33-9FF9-DF6B-B814-4AA4ED12F02F" name="TELEFONE_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>349766BD-7436-4EB4-C4F1-3F7FB2D7B96F</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE53C562-9B51-007B-A78E-DFCEAE763C23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D306FF7-C9FB-A5D3-372C-BFA3974F4A98" name="TELEFONE_NEGOCIO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>208C46DA-856C-30D7-C092-D2855F1B416F</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06F95970-A429-9F6E-E3AF-B822E3BFE0F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

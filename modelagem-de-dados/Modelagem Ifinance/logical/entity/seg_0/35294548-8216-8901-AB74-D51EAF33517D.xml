@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35294548-8216-8901-AB74-D51EAF33517D" name="ENDERECO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:57:14 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="8CD9C762-3B83-BC56-DF12-FA7654308911">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:57:24 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_negocio" id="859DDB33-E408-D27E-7724-C2155795E47F">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 03:07:55 UTC</createdTime>
+<generatorID>CE1F1586-EE5D-CA20-A77B-2290CB41BD41</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<referedAttribute>2BB08FD0-BDA1-0F00-CDF1-84ADD693083C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_endereco" id="6D6302E1-FE57-A4CA-A60C-5F326D209271">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:57:30 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="CAC255FE-57A4-39CE-0511-9CF41BB5679D">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:57:38 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="0895DDA6-9026-7FD7-78F4-42F72B39D94C">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:57:44 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="067DCBE9-7656-F619-B98B-86780F15BD41">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:57:56 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="17BAC814-E038-165E-56C0-55E87165C336">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:58:03 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="3D80307F-069A-1C88-7C6C-7522B2537FBE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:58:08 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="5BF09B4A-17AC-AF35-DC88-3E1D8395EFD3">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:58:18 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FC6A981-A4C9-FCB4-3842-1D88336631A5" name="ENDERECO PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:57:29 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CD9C762-3B83-BC56-DF12-FA7654308911</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

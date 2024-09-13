@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2A17E82-D382-E909-179B-0A4021B198E9" name="INGREDIENTE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:21:53 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ingrediente" id="33EEB28A-F96B-80B2-237A-F024C1E52B49">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:22:02 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="DF19274D-5F8E-1EDF-3E4F-CE867D8622AF">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:22:10 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_ingrediente" id="3C096872-4789-7336-EB1E-DC7B338E11B4">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:22:20 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_ingrediente" id="C825EA4B-31C0-5806-CED9-05C740DCB88A">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:43:34 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4F62B33-81E4-CEC1-1C07-8AF88A33312D" name="INGREDIENTE PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:22:08 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33EEB28A-F96B-80B2-237A-F024C1E52B49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

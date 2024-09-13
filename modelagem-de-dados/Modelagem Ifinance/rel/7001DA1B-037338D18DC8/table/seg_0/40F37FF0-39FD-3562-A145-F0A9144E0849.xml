@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40F37FF0-39FD-3562-A145-F0A9144E0849" name="T_ENTRADA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>59EF7BD8-9BE3-22DB-B85E-38227AA2C55E</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>entrada</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transacao" id="41646A9A-760E-CFB6-B329-10581715828F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>8990BCE0-F7CA-A8CB-E09D-F4E72DC52538</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BA22DBA-BD82-39D8-FD92-57FB0ABAF207" referredColumn="A5FA3FFA-3459-81A4-7907-7F0DFC4F6D0F"/>
+</associations>
+</Column>
+<Column name="id_negocio" id="2AFB52DE-1CEB-16F9-4C9F-C51CA679CC7E">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>D76893DC-8D1F-38D0-3EA2-F7298F559AA1</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB773A63-2CA8-EDBC-DB1F-ED5818CD6818" referredColumn="83E807B3-40C4-7C00-6496-965F20A33A9F"/>
+</associations>
+</Column>
+<Column name="localizacao" id="E782D247-B38F-10B8-2B05-079E99E4B514">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>86A2CD98-F055-1386-D7C2-233790F82E0A</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7119F05E-05FE-FFC0-DA07-EB2DDAFBDF7C" name="ENTRADA_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>D65022E4-AC69-6176-A14A-85D9DF0EAE4E</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41646A9A-760E-CFB6-B329-10581715828F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2959179-5AEB-57D5-117A-04320531A95E" name="ENTRADA_PKv1">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>FE9A41A5-06CF-B75D-7F55-8AF069F52036</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41646A9A-760E-CFB6-B329-10581715828F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12B0F8D4-9396-8B9C-CD67-3C023FBA087D" name="ENTRADA_TRANSACAO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>CFE853DB-D0FE-D43C-10B0-8DD7C492CFF5</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41646A9A-760E-CFB6-B329-10581715828F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65D561A5-B6E8-DE09-9F74-1817439AE8D4" name="ENTRADA_NEGOCIO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>ED406C74-4BB6-D47A-580C-FF9555F0E225</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AFB52DE-1CEB-16F9-4C9F-C51CA679CC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

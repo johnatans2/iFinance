@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possui/Pertencev11" directorySegmentName="seg_0" id="CE1F1586-EE5D-CA20-A77B-2290CB41BD41">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 03:07:55 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<sourcePk>9CCF2DB8-73CF-7BD2-94C5-E83CE7D22A7D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F72512BA-E108-E8BC-ED05-267FFB941CD9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>35294548-8216-8901-AB74-D51EAF33517D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

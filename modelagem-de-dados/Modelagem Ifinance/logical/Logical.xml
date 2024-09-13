@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="71E917AC-E19D-BB6C-AB31-79DA51316CC7" mainViewID="29D6702D-84CC-2E01-A16A-0EFABC5DE62D">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 01:44:36 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

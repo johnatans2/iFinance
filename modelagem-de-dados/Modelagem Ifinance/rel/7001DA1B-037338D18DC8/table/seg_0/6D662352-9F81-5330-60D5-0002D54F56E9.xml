@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D662352-9F81-5330-60D5-0002D54F56E9" name="T_PROMOCAO">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>8476B91A-5BA9-5571-2F9C-5A329A3A43B4</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>promocao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promocao" id="2E8DAE65-8296-1C1F-2B93-E513A812AC72">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>A00EA0E6-B267-C76E-3BB1-3BC86E83094B</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="68CDF449-DC9B-D4F2-1213-69573B3E8035">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>C63032D7-BEB6-247E-BC8E-FB921CDB0478</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_inicio" id="C170B2C3-4A8B-56B6-AE3F-E206D5117CB6">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>C86A258A-7556-A587-4116-333ED9576221</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_fim" id="C25025D7-C61F-A6C3-9AF7-3D038D462D37">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>BBBAE56B-FC1A-8E27-558B-4B7E6F290D03</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="receita_obtida" id="ACAD6B11-C606-BAA7-4029-FDFFD1EF2CB0">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>A5B2BF9F-1D44-C9F3-5EAF-D92B22A2A58C</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="despesa_obtida" id="6739EAD7-9ABA-1A67-70F4-E17E9720A47E">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>EEB02DDD-D234-FAB4-3F65-3E21369A8047</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82724EDE-A5BC-B432-550C-3C86BE791459" name="PROMOCAO_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>D7513198-91EC-BA10-D446-EC97000F88C9</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E8DAE65-8296-1C1F-2B93-E513A812AC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

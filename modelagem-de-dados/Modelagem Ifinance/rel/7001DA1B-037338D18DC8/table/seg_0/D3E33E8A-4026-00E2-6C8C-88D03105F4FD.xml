@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3E33E8A-4026-00E2-6C8C-88D03105F4FD" name="T_EMAIL">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>11594C71-87EA-AC87-3A11-1101BA968ACC</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>email</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_email" id="E5B5FF3C-63D2-9B52-278F-9EBCB23B3D6F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>9026EA3D-61DC-CB7B-52F0-8A8CE9864CCE</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estabelecimento" id="8ECA0B44-0679-12CD-2CB8-F53C68584833">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>6B442A04-D64E-4B36-20C0-38802AA17A42</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BA0409D-6476-A64C-270A-E3BAEB086A36" referredColumn="83E807B3-40C4-7C00-6496-965F20A33A9F"/>
+</associations>
+</Column>
+<Column name="email" id="C7E7180A-EA3D-8855-0035-9DEE4DE935D1">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>169CD616-57DA-5DDB-8793-1A15EB09CB03</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254</dataTypeSize>
+<ownDataTypeParameters>254,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26ABB0B8-19E4-E05C-CF19-A0795A912260" name="EMAIL_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>22DC729B-5849-C89E-DCDA-BFBFA5459823</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5B5FF3C-63D2-9B52-278F-9EBCB23B3D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D704A54-D4D1-03F9-2669-51AA094BE48F" name="EMAIL_NEGOCIO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>9DE157B4-4EB2-89C4-2114-6E5D08C366B4</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ECA0B44-0679-12CD-2CB8-F53C68584833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

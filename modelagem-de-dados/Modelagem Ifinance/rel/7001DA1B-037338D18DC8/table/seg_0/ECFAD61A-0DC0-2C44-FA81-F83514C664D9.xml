@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECFAD61A-0DC0-2C44-FA81-F83514C664D9" name="T_PROMOCAO_PRODUTO">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>5D971203-1509-A4C0-3D4E-223A9A61302C</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>promocao_produto</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="772DA1FB-DC7C-2C81-8ADF-21CC8A4E6F2B">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>58EB350C-3E92-57C6-6749-DA6D63F3F9EB</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64D254B3-CDB7-7CAE-D1C0-42329432EBE2" referredColumn="9B76EE0E-29E1-A11D-3C87-8D790046FDD1"/>
+</associations>
+</Column>
+<Column name="id_promocao" id="C5E7AD11-96E3-71C9-3590-F1B3DA11A556">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>22CEEF29-3E7E-1B45-BCF3-76AB3FBC43EE</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D3F2D5F-8971-CB75-7C8E-7C4FBF1BB24B" referredColumn="2E8DAE65-8296-1C1F-2B93-E513A812AC72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2248D9C3-9D15-2E7F-79F9-C0ADAB28510A" name="PROMOCAO_PRODUTO_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>288AF8FB-E768-8100-07A9-DB81E17B9005</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772DA1FB-DC7C-2C81-8ADF-21CC8A4E6F2B"/>
+<colUsage columnID="C5E7AD11-96E3-71C9-3590-F1B3DA11A556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9658451-BC49-5E58-DDB4-57FD93D687A4" name="PROMOCAO_PRODUTO_PROMOCAO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>CF378D6D-9189-3E42-DC68-F81B23D1F4D1</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E7AD11-96E3-71C9-3590-F1B3DA11A556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1519B5F-51D4-EA56-84C1-69E46CBD00C4" name="PROMOCAO_PRODUTO_PRODUTO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>E38145AD-3C89-3472-B929-79B3A7E532C6</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772DA1FB-DC7C-2C81-8ADF-21CC8A4E6F2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

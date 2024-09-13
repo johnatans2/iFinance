@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31E365F8-3432-CEED-B52D-7E9D74F13342" name="T_COMPOSICAO_INGREDIENTE">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>B61B86C1-1F6A-4333-3339-AFBF07EF5CB5</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>composicao_ingrediente</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_composicao" id="323AC2BE-325D-77EB-3F15-7C069A8B88EA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>ED095CF5-6541-6B84-A4FC-FC23DAD33D6E</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77A94313-A1F1-32E1-49DF-553E4D632466" referredColumn="3E9520A4-41DE-9308-9513-A5B1868D6D52"/>
+</associations>
+</Column>
+<Column name="id_ingrediente" id="1B4BD18E-E6E4-F96B-0589-781CC27A15E3">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>C796ECAC-8DC5-B7FA-FF90-B6EC1454D71C</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34D2D6CC-DADF-E4B3-9C02-53F2A47A276A" referredColumn="C8330327-1E75-DD1C-9BFD-4F1D3A56BCA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7957C0E-2F8F-8D33-A818-7125FF2D8D5F" name="COMPOSICAO_INGREDIENTE_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>DC8BCA5B-1CEF-9F47-23F9-7FDA85C60D0E</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323AC2BE-325D-77EB-3F15-7C069A8B88EA"/>
+<colUsage columnID="1B4BD18E-E6E4-F96B-0589-781CC27A15E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1460C8B-36FF-45C3-4AAC-ED4FEB8C77B9" name="COMPOSICAO_INGREDIENTE_COMPOSICAO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>F2BF1967-15E6-1159-5ECF-9BD2C48F28BA</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323AC2BE-325D-77EB-3F15-7C069A8B88EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35780A67-BA83-2A70-ECF4-ADEAA3EAE21D" name="COMPOSICAO_INGREDIENTE_INGREDIENTE_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>86F055C5-0373-43EA-7325-51C7DBC51DD2</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4BD18E-E6E4-F96B-0589-781CC27A15E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

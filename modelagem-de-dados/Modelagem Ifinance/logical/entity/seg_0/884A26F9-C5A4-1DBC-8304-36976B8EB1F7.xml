@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="884A26F9-C5A4-1DBC-8304-36976B8EB1F7" name="NEGOCIO_PRODUTO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:48:22 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_negocioproduto" id="1DE633C4-0C6C-1DA2-5A1A-B359F9107462">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:48:34 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="6E73C9F2-BB5A-F20E-A8CF-DCC74CE73C67">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:48:55 UTC</createdTime>
+<generatorID>B246D26F-E2E7-BF57-D676-A9BB83A31CC0</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<referedAttribute>C06A10FF-B6A2-888F-D4C4-0F40809C30CD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_negocio" id="C56D6E06-856B-6212-07A3-7F1424D452E7">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:49:34 UTC</createdTime>
+<generatorID>DDF3E3C7-7BA1-9466-E1E3-C6420DB43CA3</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<referedAttribute>2BB08FD0-BDA1-0F00-CDF1-84ADD693083C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37969ECA-BDBA-919F-03A8-FBA23B35DB3B" name="NEGOCIO_PRODUTO PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:48:43 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DE633C4-0C6C-1DA2-5A1A-B359F9107462</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

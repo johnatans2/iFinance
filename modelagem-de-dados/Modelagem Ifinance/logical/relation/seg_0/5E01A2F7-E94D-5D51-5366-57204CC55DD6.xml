@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contém/Está Contido" directorySegmentName="seg_0" id="5E01A2F7-E94D-5D51-5366-57204CC55DD6">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:20:41 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<sourcePk>E738F692-0AC8-DB31-716F-637B7669CF3B</sourcePk>
+<targetPk>A9D8B20C-2190-B62E-5CCE-AED45AFC34F4</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E2C2DDD7-4F53-818E-DAC3-22B6D23FF0CC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1B3288DB-78E8-0CE8-1A91-82F411BB059C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

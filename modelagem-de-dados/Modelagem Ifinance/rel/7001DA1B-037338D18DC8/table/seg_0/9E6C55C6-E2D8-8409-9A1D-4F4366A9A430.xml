@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E6C55C6-E2D8-8409-9A1D-4F4366A9A430" name="T_NEGOCIO_PRODUTO">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>884A26F9-C5A4-1DBC-8304-36976B8EB1F7</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>negocio_produto</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_negocioproduto" id="F22FA956-C5E9-8692-E41A-99623F2F09C9">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>1DE633C4-0C6C-1DA2-5A1A-B359F9107462</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produto" id="ABF07CCB-8E65-4EE4-9DDF-4E52A5480D0B">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>6E73C9F2-BB5A-F20E-A8CF-DCC74CE73C67</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D406B788-21DB-23AE-B5F6-701E450F3F51" referredColumn="9B76EE0E-29E1-A11D-3C87-8D790046FDD1"/>
+</associations>
+</Column>
+<Column name="id_negocio" id="AB668674-CF5C-C522-77B3-4E9E4BF342B4">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>C56D6E06-856B-6212-07A3-7F1424D452E7</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73572C22-5A56-DCFA-CBA4-964865448527" referredColumn="83E807B3-40C4-7C00-6496-965F20A33A9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B94181E-3C1A-6E15-76AE-A2D4581C146D" name="NEGOCIO_PRODUTO_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>37969ECA-BDBA-919F-03A8-FBA23B35DB3B</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F22FA956-C5E9-8692-E41A-99623F2F09C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C2CF7B-573E-BBF8-3D94-57E3100CB378" name="NEGOCIO_PRODUTO_PRODUTO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>B246D26F-E2E7-BF57-D676-A9BB83A31CC0</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF07CCB-8E65-4EE4-9DDF-4E52A5480D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF8A016D-94B7-F74B-5668-3EF5FA58A479" name="NEGOCIO_PRODUTO_NEGOCIO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>DDF3E3C7-7BA1-9466-E1E3-C6420DB43CA3</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB668674-CF5C-C522-77B3-4E9E4BF342B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Participa/Contém" directorySegmentName="seg_0" id="E38145AD-3C89-3472-B929-79B3A7E532C6">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:30:59 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<sourcePk>E738F692-0AC8-DB31-716F-637B7669CF3B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C673A0D-B1E6-1790-A03A-8B9ECF557A3B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D971203-1509-A4C0-3D4E-223A9A61302C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F54188B-3DCE-DB8B-597C-FBD662943D8C" name="T_PRODUTO_PRODUZIDO">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>E2C2DDD7-4F53-818E-DAC3-22B6D23FF0CC</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>produto_produzido</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="5A96617E-A7A7-C818-EC28-3D1D34280886">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>C06A10FF-B6A2-888F-D4C4-0F40809C30CD</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="663F0730-106F-27E9-C3B4-A4E66F5BBFDA" referredColumn="9B76EE0E-29E1-A11D-3C87-8D790046FDD1"/>
+</associations>
+</Column>
+<Column name="id_composicao" id="F78D63CF-F7AE-FCE1-B69E-4301A0FC17FD">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>F5465026-0056-42A0-61BC-A2308A0D2CBD</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FE24016-CB75-0AEE-895A-3D7D11FD78C4" referredColumn="3E9520A4-41DE-9308-9513-A5B1868D6D52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88461A26-9650-BAE2-3BAC-A9F9B4177AD9" name="PRODUTO_PRODUZIDO_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>E738F692-0AC8-DB31-716F-637B7669CF3B</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A96617E-A7A7-C818-EC28-3D1D34280886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76F98A69-814A-4C60-971F-F7EF1073BCAC" name="PRODUTO_PRODUZIDO__IDX">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5E01A2F7-E94D-5D51-5366-57204CC55DD6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F78D63CF-F7AE-FCE1-B69E-4301A0FC17FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0CFCE82-A482-CA38-7179-8764D5D0F48B" name="PRODUTO_PRODUZIDO_PRODUTO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>81CA832E-E037-F365-E3FA-DD4E9875D32F</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A96617E-A7A7-C818-EC28-3D1D34280886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFBB1768-6031-D963-8960-1DB2FE97CD99" name="PRODUTO_PRODUZIDO_COMPOSICAO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>5E01A2F7-E94D-5D51-5366-57204CC55DD6</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F78D63CF-F7AE-FCE1-B69E-4301A0FC17FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

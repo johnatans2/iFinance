@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="663F0730-106F-27E9-C3B4-A4E66F5BBFDA" containerWithKeyObject="6F54188B-3DCE-DB8B-597C-FBD662943D8C" localFKIndex="E0CFCE82-A482-CA38-7179-8764D5D0F48B" name="PRODUTO_PRODUZIDO_PRODUTO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>81CA832E-E037-F365-E3FA-DD4E9875D32F</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<referredTableLongName>PRODUTO</referredTableLongName>
+<arc>B4AD5336-F5BC-C114-31D0-44ED79930F66</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40565831-87BE-271F-59A7-346568869223</referredTableID>
+<keyObject>5D1D8490-4676-1D63-423A-F4B11A5B306F</keyObject>
+<referredKeyID>5D1D8490-4676-1D63-423A-F4B11A5B306F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

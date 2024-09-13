@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="B4AD5336-F5BC-C114-31D0-44ED79930F66" name="FKArc_1">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>40565831-87BE-271F-59A7-346568869223</table>
+<fkeys>
+<fkeyID>934B2E01-BAAF-E092-BFA2-5D327A44D454</fkeyID>
+<fkeyID>663F0730-106F-27E9-C3B4-A4E66F5BBFDA</fkeyID>
+</fkeys>
+</FKArc>

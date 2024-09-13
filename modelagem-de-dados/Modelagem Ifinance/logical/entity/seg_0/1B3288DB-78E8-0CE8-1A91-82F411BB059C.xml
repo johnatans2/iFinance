@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B3288DB-78E8-0CE8-1A91-82F411BB059C" name="COMPOSICAO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:17:41 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_composicao" id="DA681056-C015-DABC-6EBE-D69925FE6D4D">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:18:01 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="C96AC882-9E71-3882-6CF0-C834859EF54C">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:20:41 UTC</createdTime>
+<generatorID>5E01A2F7-E94D-5D51-5366-57204CC55DD6</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<referedAttribute>C06A10FF-B6A2-888F-D4C4-0F40809C30CD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9D8B20C-2190-B62E-5CCE-AED45AFC34F4" name="COMPOSICAO PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 02:18:14 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA681056-C015-DABC-6EBE-D69925FE6D4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

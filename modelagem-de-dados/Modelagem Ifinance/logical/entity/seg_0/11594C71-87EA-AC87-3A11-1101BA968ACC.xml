@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11594C71-87EA-AC87-3A11-1101BA968ACC" name="EMAIL">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 03:03:25 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_email" id="9026EA3D-61DC-CB7B-52F0-8A8CE9864CCE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 03:03:30 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_negocio" id="6B442A04-D64E-4B36-20C0-38802AA17A42">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 03:10:28 UTC</createdTime>
+<generatorID>9DE157B4-4EB2-89C4-2114-6E5D08C366B4</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<referedAttribute>2BB08FD0-BDA1-0F00-CDF1-84ADD693083C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="169CD616-57DA-5DDB-8793-1A15EB09CB03">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 03:03:36 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22DC729B-5849-C89E-DCDA-BFBFA5459823" name="EMAIL PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-17 03:03:35 UTC</createdTime>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<engineerTo>
+<item key="7001DA1B-B96D-EE1E-BCDE-037338D18DC8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9026EA3D-61DC-CB7B-52F0-8A8CE9864CCE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

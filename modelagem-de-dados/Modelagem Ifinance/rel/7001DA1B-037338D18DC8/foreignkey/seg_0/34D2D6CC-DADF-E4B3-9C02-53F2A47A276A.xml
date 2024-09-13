@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34D2D6CC-DADF-E4B3-9C02-53F2A47A276A" containerWithKeyObject="31E365F8-3432-CEED-B52D-7E9D74F13342" localFKIndex="35780A67-BA83-2A70-ECF4-ADEAA3EAE21D" name="COMPOSICAO_INGREDIENTE_INGREDIENTE_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>86F055C5-0373-43EA-7325-51C7DBC51DD2</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<referredTableLongName>INGREDIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A895B6FF-7222-4BAD-F809-4A0189BBFCCF</referredTableID>
+<keyObject>AA233ADD-D401-2D37-6AFE-B89C3BF44DC2</keyObject>
+<referredKeyID>AA233ADD-D401-2D37-6AFE-B89C3BF44DC2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ingrediente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

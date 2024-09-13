@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28528EA5-BBC4-AC04-F2CA-15B055676BE1" name="T_SAIDA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>9ECF56BE-2DC4-764D-10E7-8EDEE94AE1EB</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<ordsAlias>saida</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transacao" id="C5AC1A18-621A-D8E0-F26F-9AEF83F67576">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>8990BCE0-F7CA-A8CB-E09D-F4E72DC52538</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77F8174B-068C-1D26-A85A-C8FCC6E1756B" referredColumn="A5FA3FFA-3459-81A4-7907-7F0DFC4F6D0F"/>
+</associations>
+</Column>
+<Column name="id_negocio" id="37EAA11C-20FD-96F8-618B-8E79BD1F5183">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>46F7293C-22B2-35B0-47A7-95F025335627</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C3B8A2A-2BD8-D60D-AA90-43DB7E069EA9" referredColumn="83E807B3-40C4-7C00-6496-965F20A33A9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F86F86EA-DAA3-3E3F-ECE7-12CE3B94C978" name="SAIDA_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>D65022E4-AC69-6176-A14A-85D9DF0EAE4E</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5AC1A18-621A-D8E0-F26F-9AEF83F67576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C418479-E739-7CF7-3295-E0901C109EFD" name="SAIDA_PKv1">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>452E087F-CE6D-1A2A-DFFC-2E10D08BE5CB</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5AC1A18-621A-D8E0-F26F-9AEF83F67576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D152BFB-6E57-30BF-52AD-401C2AB47056" name="SAIDA_TRANSACAO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>E79A70F8-FB69-23E1-7D48-E6E1964B21F7</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5AC1A18-621A-D8E0-F26F-9AEF83F67576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA635A22-24A0-C881-C0AB-562340CBBDE4" name="SAIDA_NEGOCIO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-06-17 22:37:49 UTC</createdTime>
+<generatorID>8EE91562-4675-ABFC-6A94-9BC20D8C3ABC</generatorID>
+<ownerDesignName>Modelagem Ifinance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37EAA11C-20FD-96F8-618B-8E79BD1F5183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
