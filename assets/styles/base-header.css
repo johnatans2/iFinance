@@ -1,0 +1,58 @@
+.header{
+    border-bottom:solid #DCDCDC 0.2rem;
+}
+.header>div{
+    display:flex;
+    justify-content:space-between;
+}
+.ifood img{
+    opacity:80%;
+}
+.header a{
+    color:var(--cinza);
+}
+.header-nav{
+    box-shadow:0.3rem 0.4rem 0.4rem 0rem rgba(0,0,0,0.25);
+    border-radius:1.8rem;
+}
+.header-list{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.header-list ul{
+    width:100%;
+}
+.active{
+    color:var(--cor-principal) !important;
+}
+.opcao-menu{
+    font-weight:500;
+}
+.configuracao{
+    transition:none;
+    display:inline-flex;
+    align-items:center;
+    height:2.5rem;
+}
+.configuracao::after{
+    content:url("../images/utilizaveis/icones/icone-configuracao.png");
+    margin:1rem;
+    transform:translatey(12%);
+}
+.sair{
+    transition:none;
+    display:inline-flex;
+    align-items:center;
+    height:2.5rem;
+}
+.sair::after{
+    content:url("../images/utilizaveis/icones/icone-sair.png");
+    margin:1rem;
+    transform:translatey(12%);
+}
+@media (min-width:1200px){
+    .header-list img{
+        border-right:solid #DCDCDC 0.2rem;
+    }
+}

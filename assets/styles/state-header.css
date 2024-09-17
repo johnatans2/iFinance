@@ -1,0 +1,19 @@
+.header .collapse a:hover{
+    color:var(--cor-principal);
+}
+.header button:focus{
+    color:var(--cor-principal);
+}
+.ifood img:hover{
+    opacity:100%;
+}
+.opcao-menu:hover{
+    background-color:var(--cor-principal);
+    color:#fff;
+}
+.configuracao:hover::after{
+    content:url("../images/utilizaveis/icones/icone-configuracao-branco.png");
+}
+.sair:hover::after{
+    content:url("../images/utilizaveis/icones/icone-sair-branco.png");
+}
