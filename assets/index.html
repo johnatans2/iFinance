@@ -12,13 +12,14 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/base-header.css">
         <link rel="stylesheet" href="styles/state-header.css">
+        <link rel="stylesheet" href="styles/layout-index.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
     </head>
     <body>
         <header class="p-2 header">
             <div class="container">
                 <section class="navbar navbar-expand-lg">
-                    <section class="mx-3">
+                    <section class="me-3">
                     <a class="navbar-brand" href="index.html"><img src="images/utilizaveis/logotipos/Logo.png" alt="Logo iFinance"></a>
                     </section>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,5 +63,107 @@
                 </section>
             </div>
         </header>
+        <main class="container my-5">
+            <section class="row">
+                <section class="border-component row col-sm-12 col-md-12 col-lg p-4">
+                    <section class="row col align-items-center secao1 me-2">
+                        <div class="col row justify-content-center">
+                            <img src="images/utilizaveis/logotipos/Coco_Bambu_Restaurante.png" alt="Logotipo Coco Bambu" class="w-auto">
+                        </div>
+                        <div class="row col align-items-center">
+                            <div class="olho col-12 m-2"></div>
+                            <h1 class="topico receita-topico col-12">Saldo:</h1>
+                            <p class="col-12 receita-valor">R$:300.000,00</p>
+                        </div>
+                    </section>
+                    <section class="col row align-items-center">
+                        <div class="col-6">
+                            <h1 class="topico receita-topico">Receita Mensal:</h1>
+                            <p class="receita-valor">R$:500.000,00</p>
+                        </div>
+                        <div class="col-6">
+                            <h1 class="topico despesa">Despesa Mensal:</h1>
+                            <p class="despesa">R$:200.000,00</p>
+                        </div>
+                    </section>
+                </section>
+                <section class="row border-component col-sm-12 col-md-12 col-lg p-2">
+                    <h1 class="topico">Produto mais vendido:</h1>
+                    <div class="col-4 row align-items-center">
+                        <img src="images/utilizaveis/imagens-comuns/camarao_coco_brasil.png" alt="Camarão Coco Brasil">
+                    </div>
+                    <div class="row col-5">
+                        <h1 class="topico col" style="color:#FF7D00;">Camarão Coco Bambu<h1>
+                        <div class="row justify-content-between">
+                            <h2 class="topico1 receita-topico col">Quantidade vendida:</h2>
+                            <p class="col topico2 receita-valor">4.220 un</p>
+                        </div>
+                    </div>
+                    <div class="col-3 m-4">
+                        <a href="#" ><img src="images/utilizaveis/imagens-comuns/seta-verde.png" alt="Seta Verde" class="my-2 seta-exibirmais"></a>
+                        <h1 class="topico2 receita-topico">Exibir mais detalhes</h1>
+                    </div>
+                </section>
+            </section>
+            <section class="row mt-4">
+                <section class="col-sm-12 col-lg-4 border-component p-2">
+                    <h1 class="topico">Últimas Entradas:</h1>
+                    <table class="table table-hover" style="border-color:#888">
+                        <thead class="text-center">
+                            <tr>
+                                <th>Ícone</th>
+                                <th style="color:var(--verde-escuro)">Valor</th>
+                                <th>Data e Hora</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td><img src="images/utilizaveis/icones/icone-ifood.png" alt="Ícone iFood"></td>
+                                <td style="color:var(--verde-claro)">R$: 125,00</td>
+                                <td>12/06/2024 22:30</td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/utilizaveis/icones/icone-ifood.png" alt="Ícone iFood"></td>
+                                <td style="color:var(--verde-claro)">R$ 335,57</td>
+                                <td>12/06/2024 23:10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+                        <h2 class="topico text-center despesa">Mostrar mais detalhes</h2>
+                        <a href="#" class="text-center"><img src="images/utilizaveis/icones/icone-de-mais.png" alt="Ícone de Somar"></a>
+                    </div>
+                </section>
+                <section class="col-sm-12 col-lg-4 border-component p-2">
+                        <h1 class="topico">Últimas Saídas:</h1>
+                        <table class="table table-hover" style="border-color:#888">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>Ícone</th>
+                                    <th style="color:var(--cor-principal)">Valor</th>
+                                    <th>Data e Hora</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <td><img src="images/utilizaveis/icones/icone-caminhao.png" alt="Ícone iFood"></td>
+                                    <td style="color:var(--cor-principal)">R$: 1.325,78</td>
+                                    <td>10/06/2024 16:00</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/utilizaveis/icones/icone-caminhao.png" alt="Ícone iFood"></td>
+                                    <td style="color:var(--cor-principal)">R$ 4.535,57</td>
+                                    <td>13/06/2024 13:50</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <h2 class="topico text-center despesa">Mostrar mais detalhes</h2>
+                            <a href="#" class="text-center"><img src="images/utilizaveis/icones/icone-de-mais.png" alt="Ícone de Somar"></a>
+                        </div>
+                    </section> 
+                </section>
+            </section>
+        </main>
     </body>
 </html>
