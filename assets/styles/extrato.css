@@ -8,6 +8,117 @@ table img:hover {
     transform: scale(1.1); 
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; 
+    height: 48px; 
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    height: 100%; 
+}
+
+.search-icon {
+    background-color: #d32f2f; 
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.search-icon i {
+    font-size: 18px;
+}
+
+.search-bar::placeholder {
+    color: #bbb;
+}
+
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    height: 48px; 
+}
+
+.filter-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn i {
+    font-size: 16px;
+}
+
+.calendar-btn {
+    padding: 10px 15px;
+    height: 48px;
+}
+
+.dash-btn {
+    padding: 10px 15px;
+    height: 48px;
+}
+
+/* Efeito hover */
+.btn:hover {
+    background-color: #c62828;
+}
+
+.search-icon:hover {
+    background-color: #b71c1c;
+}
+
+.search-bar:focus {
+    box-shadow: 0px 0px 5px rgba(211, 47, 47, 0.5);
+}
+
+
 .info-box {
     margin: auto;
     display: flex;
@@ -17,7 +128,7 @@ table img:hover {
     border-radius: 15px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    border: 1px solid #dcdcdc; /* Bordas sutis em volta do componente */
+    border: 1px solid #dcdcdc; 
 }
 
 .tran-button {
@@ -40,7 +151,7 @@ table img:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 40%; /* Ajuste a largura conforme necessário */
+    width: 40%; 
 }
 
 .icon-box {
@@ -62,7 +173,7 @@ table img:hover {
     align-items: center;
     flex-grow: 1;
     padding: 0;
-    background-color: white; /* Cor de fundo branca */
+    background-color: white; 
 }
 
 .info {
@@ -83,18 +194,24 @@ table img:hover {
     font-size: 1.5rem;
 }
 
-.green {
-    color: green;
+.green { 
+    color: green !important; 
 }
-
-.red {
-    color: red;
+.red { 
+    color: red !important; 
+}
+.gray { 
+    color: gray !important; 
+}
+.bold-green { 
+    color: green !important; 
+    font-weight: bold !important; 
 }
 
 .divider {
     width: 1px;
     background-color: #dcdcdc;
-    height: 80px; /* Altura da linha */
+    height: 80px; 
 }
 
 

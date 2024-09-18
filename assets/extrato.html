@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="styles/base-header.css">
         <link rel="stylesheet" href="styles/state-header.css">
         <link rel="stylesheet" href="./styles/extrato.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+        <script src="./extrato.js"></script>
     </head>
     <body>
         <header class="p-2 header">
@@ -65,7 +67,7 @@
         </header>
     </body>
 </html>
-<!----BARRA BUSCA-->
+<!-----------BARRA PESQUISA E LOGO------------>
 <div class="container text-center my-3">
     <div class="row align-items-center">
         <!-- Imagem à esquerda -->
@@ -73,39 +75,45 @@
             <img src="./images/utilizaveis/logotipos/Coco_Bambu_Restaurante.png" alt="Coco Bambu" class="img-fluid" width="100">
         </div>
 
-        <!-- Barra de pesquisa e botão Pesquisar -->
-        <div class="col-lg-6">
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                    <form class="d-flex" role="search">
-                        <!-- Aumentar tamanho da barra de pesquisa -->
-                        <input class="form-control me-2" type="search" placeholder="Pesquise o dado que deseja" aria-label="Search" style="flex-grow: 1;">
-                        <!-- Botão de Pesquisar ao lado -->
-                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
+<!-- Barra de pesquisa e botão Pesquisar -->
+<div class="col-lg-6">
+    <div class="search-container">
+        <form class="search-form" role="search">
+            <!-- Ícone de lupa e barra de pesquisa -->
+            <div class="input-container">
+                <button class="search-icon" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+                <input class="search-bar" type="search" placeholder="Pesquise o dado que deseja" aria-label="Search">
+            </div>
+        </form>
+    </div>
+</div>
 
-        <!-- Botão de filtro -->
-        <div class="col-lg-2">
-            <button class="btn btn-outline-danger" type="button">Filtrar</button>
-        </div>
+<!-- Botão de filtro com ícone -->
+<div class="col-lg-2 filter-buttons">
+    <button class="btn filter-btn">
+        <i class="fa fa-filter"></i> <!-- Ícone do filtro -->
+        Filtrar
+    </button>
+</div>
+<!--Fim botão filtro-->
 
-        <!-- Botão para selecionar data -->
+
+        <!-- botão para selecionar data -->
         <div class="col-lg-2">
             <input type="date" class="form-control">
         </div>
     </div>
 </div>
-<!-- FIM BARRA BUSCA -->
+<!-- FIM botão selecionar data -->
 
 
 <!--Início Tabela-->
 
         
       <div class="container text-center my-12">
-    <table class="table table-striped table-bordered table-hover">
+    <table id="financeTable" class="table table-striped table-bordered table-hover">
         <thead class="text-center">
             <tr>
                 <th>ÍCONE</th>
@@ -117,56 +125,56 @@
         </thead>
         <tbody class="text-center">
             <tr>
-                <th><img src="./images/Vectors/Vector_Money.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_Money.png" alt="IFinance" title="Recebido" width="30" height="30"></th>
                 <td>13/06/2024 21:57</td>
                 <td>R$00,00</td>
                 <td>R$105,00</td>
                 <td>R$184.189,29</td>
             </tr>
             <tr>
-                <th><img src="./images/Vectors/Vector_Money.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_Money.png" alt="IFinance" title="Recebido" width="30" height="30"></th>
                 <td>13/06/2024 22:15</td>
                 <td>R$899,52</td>
                 <td>R$105,00</td>
                 <td>R$183.543,49</td>
             </tr>
             <tr>
-                <th><img src="./images/Vectors/Vector_transf.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_transf.png" alt="IFinance" title="Transferência" width="30" height="30"></th>
                 <td>13/06/2024 22:31</td>
                 <td>R$1614,00</td>
                 <td>R$00,00</td>
                 <td>R$183.253,70</td>
             </tr>
             <tr>
-                <th><img src="./images/Vectors/Vector_transf.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_transf.png" alt="IFinance" title="Transferência" width="30" height="30"></th>
                 <td>13/06/2024 23:05</td>
                 <td>R$1230,34</td>
                 <td>R$00,00</td>
                 <td>R$182.943,56</td>
             </tr>
             <tr>
-                <th><img src="./images/Vectors/Vector_Ifood.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_Ifood.png" alt="IFinance" title="Ifood" width="30" height="30"></th>
                 <td>12/06/2024 13:23</td>
                 <td>R$230,10</td>
                 <td>R$00,00</td>
                 <td>R$182.633,56</td>
             </tr>
             <tr>
-                <th><img src="./images/Vectors/Vector_Ifood.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_Ifood.png" alt="IFinance" title="Ifood" width="30" height="30"></th>
                 <td>12/06/2024 12:55</td>
                 <td>R$310,00</td>
                 <td>R$00,00</td>
                 <td>R$181.403,22</td>
             </tr>
             <tr>
-                <th><img src="./images/Vectors/Vector_Truck.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_Truck.png" alt="IFinance" title="Entrega" width="30" height="30"></th>
                 <td>12/06/2024 12:48</td>
                 <td>R$00,00</td>
                 <td>R$38.900,00</td>
                 <td>R$179.789,22</td>
             </tr>
             <tr>
-                <th><img src="./images/Vectors/Vector_Ifood.png" alt="IFinance" width="30" height="30"></th>
+                <th><img src="./images/Vectors/Vector_Ifood.png" alt="IFinance" title="Ifood" width="30" height="30"></th>
                 <td>12/06/2024 12:30</td>
                 <td>R$645,80</td>
                 <td>R$00,00</td>
