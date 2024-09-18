@@ -131,10 +131,6 @@ table img:hover {
     border: 1px solid #dcdcdc; 
 }
 
-.tran-button {
-
-}
-
 .financial-info {
     border: 1px solid #dcdcdc;
     border: 1px solid #dcdcdc;
@@ -157,9 +153,6 @@ table img:hover {
 .icon-box {
     border: none;
     background-color: white;
-}
-
-.icon {
 }
 
 .icon-box span {
