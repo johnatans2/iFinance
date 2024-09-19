@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard | iFinance</title>
+    <meta name="viewport" content="widith=device-width,initial-scale=1">
+    <meta name="keywords" content="iFood,iFinance,Gestão Financeira,">
+    <meta name="author" content="FIAP - Johnatan Henrique">
+    <meta name="author" content="FIAP - Juliana Camacho">
+    <meta name="description" content="Gerencie o seu negócio de maneira simples e eficaz com o iFinance!">
+    <link rel="icon" href="../images/utilizaveis/icones/ifood-icon.png">
+    <link rel="stylesheet" href="../styles/variaveis.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../styles/base-header.css">
+    <link rel="stylesheet" href="../styles/state-header.css">
+    <link rel="stylesheet" href="../styles/layout-index.css">
+    <link rel="stylesheet" href="../styles/extrato.css">
+    <link rel="stylesheet" href="../styles/layout-analise.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <script src="../script/extrato.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="../script/analise.js" defer></script>
+</head>
+
+<body>
+    <header class="p-2 header">
+        <div class="container">
+            <section class="navbar navbar-expand-lg">
+                <section class="me-3">
+                    <a class="navbar-brand" href="../index.html"><img src="../images/utilizaveis/logotipos/Logo.png"
+                            alt="Logo iFinance"></a>
+                </section>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-underline">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="../index.html">Visão Geral</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="extrato.html">Extrato</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="relatorio.html">Relatórios</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" href="analise.html">Análises</a>
+                        </li>
+                    </ul>
+                    <section class="ifood mx-3">
+                        <a href="https://parceiros.ifood.com.br/restaurante" class="navbar-brand"><img
+                                src="../images/utilizaveis/logotipos/Voltar-iFood.png" alt="Logo iFood"></a>
+                    </section>
+                </nav>
+            </section>
+            <section class="navbar navbar-expand-xl">
+                <nav class="header-nav p-3">
+                    <ul class="navbar-nav header-list dropdown">
+                        <img src="../images/utilizaveis/logotipos/Coco_Bambu_Restaurante.png"
+                            class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" alt="Logo Coco Bambu">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Restaurante Coco Bambu</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item opcao-menu">
+                                <a href="#" class="dropdown-item nav-link opcao-menu configuracao">Configurações</a>
+                            </li>
+                            <li class="dropdown-item opcao-menu">
+                                <a href="https://portal.ifood.com.br/login"
+                                    class="dropdown-item nav-link opcao-menu sair">Sair</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+    <main class="container my-5">
+        <section class="row justify-content-center align-items-center g-3">
+            <section class="col-sm-12 col-lg-2 text-center">
+                <img src="../images/utilizaveis/logotipos/Coco_Bambu_Restaurante.png" alt="Coco Bambu">
+            </section>
+            <section class="col-sm-12 col-lg-6">
+                <h1 class="text-center">Analise Financeira Preditiva</h1>
+            </section>
+            <section class="col-6 col-lg-2 filter-buttons">
+                <button class="btn filter-btn">
+                    <i class="fa fa-filter"></i>Filtrar
+                </button>
+            </section>
+            <section class="col-6 col-lg-2">
+                <input type="date" class="form-control">
+            </section>
+        </section>
+        <section class="my-5 row">
+            <div class="col-sm-12 col-lg-6 row" style="position: relative; margin: auto;">
+                <h1 class="topico text-center col-12">Mapa de Vendas: Potencial de Expansão para Novas Filiais</h1>
+                <div class="col-12">
+                    <img src="https://img.icons8.com/emoji/48/crown-emoji.png" alt="Icone Coroa" class="crown-icon">
+                    <canvas id="graficoLocalMaisVendas"></canvas>
+                </div>
+            </div>
+            <div class="col">
+                <h1 class="topico text-center">Prospecção de Resultados</h1>
+                <h2 class="topico2 text-center">Coco Bambu - Probabilidade de rendimento nos próximos meses</h2>
+                <div>
+                    <canvas class="graficoProspeccaoRendimento"></canvas>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <section class="col-12 border-component row align-items-center">
+                <div class="col-3 row align-items-center">
+                    <img src="../images/utilizaveis/imagens-comuns/prato-mais-vendido.png" alt="Imagem de Prato Mais Vendido">
+                </div>
+                <div class="col border-end border-3">
+                    <h1 class="topico">Destaque do Mês:</h1>
+                    <h2 class="topico1 despesa">Estratégia de Cross Sell:</h2>
+                    <p class="topico2">Impacto da sobremesa <strong style="color:#FF7D00;">Pudim de Leite</strong> na
+                        <strong style="color:#FF7D00;">Promoção do Dia das Mães</strong></p>
+                </div>
+                <div class="col-5 justify-content-center row align-items-center py-2">
+                    <h1 class="topico1 receita-topico text-center">Lucro Líquido:</h1>
+                    <p class="topico1 text-center" style="color:#FF7D00">R$: 10.540,00</p>
+                    <img src="../images/utilizaveis/icones/icone-foguete.png" alt="Ícone de Foguete" class="w-50">
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
