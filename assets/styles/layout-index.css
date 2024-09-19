@@ -1,0 +1,53 @@
+.border-component{
+    border-left:solid;
+    border-width:2rem;
+    border-color:var(--cor-principal);
+    border-radius:1rem;
+    box-shadow:0.6rem 0.6rem 0.4rem 0 rgba(0,0,0,0.25);
+}
+@media (min-width:992px){
+    .border-component{
+        margin-left:2rem;
+    }
+}
+@media (max-width:992px){
+    .border-component{
+        margin-top:2rem;
+    }
+}
+.secao1{
+    border-right:solid;
+    border-color:var(--cinza-claro);
+    border-width:0.2rem;
+}
+.olho{
+    background-image:url("../images/utilizaveis/icones/icone-olho.png");
+    background-repeat:no-repeat;
+    height: 1.7rem;
+    width:2.5rem;
+    cursor:pointer;
+}
+.topico{
+    font-size:1.5rem;
+}
+.topico1{
+    font-size:1.2rem;
+}
+.topico2{
+    font-size:1rem;
+}
+.receita-topico{
+    color:var(--verde-escuro);
+}
+.receita-valor{
+    color:var(--verde-claro);
+}
+.despesa{
+    color:var(--cor-principal);
+}
+.seta-exibirmais{
+    transition:1s;
+}
+.seta-exibirmais:hover{
+    transform:translatex(10%);
+}
