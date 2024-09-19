@@ -32,6 +32,11 @@ table img:hover {
     height: 48px; 
 }
 
+.table-responsive{
+    max-width: 87%;
+    margin: auto;
+}
+
 .search-bar {
     border: none;
     outline: none;
@@ -122,12 +127,11 @@ table img:hover {
 .info-box {
     margin: auto;
     display: flex;
-    width: 100%;
-    max-width: 900px;
+    max-width: 87%;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    overflow-x: auto;
     border: 1px solid #dcdcdc; 
 }
 
@@ -147,7 +151,6 @@ table img:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 40%; 
 }
 
 .icon-box {
@@ -155,8 +158,13 @@ table img:hover {
     background-color: white;
 }
 
+.icon {
+    max-width: 100px;
+    height: auto;
+}
+
 .icon-box span {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -206,6 +214,7 @@ table img:hover {
     background-color: #dcdcdc;
     height: 80px; 
 }
+
 
 
 

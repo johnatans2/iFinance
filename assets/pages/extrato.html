@@ -78,6 +78,46 @@
     </header>
     <main class="container my-5">
         <!-----------BARRA PESQUISA E LOGO------------>
+
+        <section class="container text-center my-3">
+            <div class="row align-items-center">
+                <!-- Imagem à esquerda -->
+                <section class="col-lg-2 col-md-3 col-sm-4 text-center">
+                    <img src="../images/utilizaveis/logotipos/Coco_Bambu_Restaurante.png" alt="Coco Bambu"
+                        class="img-fluid" width="100">
+                </section>
+
+                <!-- Barra de pesquisa e botão Pesquisar -->
+                <section class="col-lg-6  col-md-6 col-sm-8">
+                    <div class="search-container">
+                        <form class="search-form" role="search">
+                            <!-- Ícone de lupa e barra de pesquisa -->
+                            <div class="input-container">
+                                <button class="search-icon" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <input class="search-bar" type="search" placeholder="Pesquise o dado que deseja" aria-label="Search">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
+                <!-- Botão de filtro com ícone -->
+                <section class="col-lg-2 col-md-3 col-sm-12 filter-buttons">
+                    <button class="btn filter-btn">
+                        <i class="fa fa-filter"></i> <!-- Ícone do filtro -->
+                        Filtrar
+                    </button>
+                </section>
+                <!--Fim botão filtro-->
+
+
+                <!-- botão para selecionar data -->
+                <section class="col-lg-2  col-md-3 col-sm-12">
+                    <input type="date" class="form-control">
+                </section>
+            </div>
+
         <section class="row align-items-center mb-3">
             <!-- Imagem à esquerda -->
             <section class="col-lg-2 text-center">
@@ -115,6 +155,7 @@
             <section class="col-lg-2">
                 <input type="date" class="form-control">
             </section>
+
         </section>
 
         <!-- FIM botão selecionar data -->
@@ -123,7 +164,7 @@
         <!--Início Tabela-->
 
 
-        <section class="container text-center my-12">
+        <section class="table-responsive">
             <table id="financeTable" class="table table-striped table-bordered table-hover">
                 <thead class="text-center">
                     <tr>
